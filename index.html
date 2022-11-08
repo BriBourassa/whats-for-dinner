@@ -1,10 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
 <html>
   <head>
+    <meta charset="UTF-8">
     <link rel="stylesheet" href="./styles.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <title>What's For Dinner?</title>
+    <!-- <script>alert("Dinner is hard")</script>-->
   </head>
   <body>
-    
+    <section>
+      <nav>
+        <span>What's for Dinner?</span>
+          <div class="recipe">
+            <button class="add-recipe-btn">ADD A RECIPE</button>
+          </div>
+      </nav>
+    </section>
+
+
+  <section>
+   
+    <div class="two-flexboxes">
+      <article class="left-container">
+        <h1 class="main-question">What are you looking for?</h1>
+
+        <label><input type="radio" name="group" class=radio-button-side/>Side</label>
+        <label><input type="radio" name="group" class=radio-button-main/>Main Dish</label>
+        <label><input type="radio" name="group" class=radio-button-dessert/>Dessert</label>
+        <label><input type="radio" name="group" class=radio-button-meal/>Entire Meal</label>
+
+        <button class="lets-cook-btn">Let's cook!</button>
+      </article>  
+
+  <section>
+    <article class="right-container">
+     <img id="cookpot-img" src="assets/cookpot.svg"/>
+     <p id="rightText"></p>
+    </article> 
+  </section>
+      </section>
+    </div>
+
   </body>
+
+
+  
+
+
   <script type="text/javascript" src="main.js"></script>
 </html>
